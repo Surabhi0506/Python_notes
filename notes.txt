@@ -14,3 +14,9 @@ Different ways to import:
 3. Import Multiple Functions: from math import sqrt, factorial
 4. Import with Alias: import math as m
 5. Import Everything: from math import * (not recommended for good programming practice)
+
+Package:
+A package is a collection of modules organized in directories.
+Python packages are a way to organize and structure code by grouping related modules into directories.
+A package is essentially a folder that contains an__init__.py file and one or more Python files(modules).
+Allows modules to be easily shared and distributed across different applications.
