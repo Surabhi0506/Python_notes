@@ -48,3 +48,11 @@ Traditional Package : 1. has init.py
                       4. Small applications
 Namespace Package: 1. No init.py
                    2. 
+
+Feature                         Module                              Package
+1. Definition                   Single Python file                  Collection of modules
+2. Extension                    .py                                 directory
+3. Purpose                      Organize code in one file           Organize related modules
+4. contains                     Functions, classes, variables       Modules and sub-packages
+5. import Example               import calculator                   import mymath
+6. Size                         Small unit                          Larger unit
