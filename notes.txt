@@ -35,3 +35,16 @@ CREATING AND ACCESSING PACKAGES:
 
 SYNTAX: 
 from package_name.module_name import function_name
+
+Namespace Package:
+Definition: A package distributed across multiple directories without an init.py file.
+Purpose: 1. Distributed development
+         2. Plugin 
+
+Traditional Package vs Namespace Package:
+Traditional Package : 1. has init.py
+                      2. Single directory
+                      3. Easy setup
+                      4. Small applications
+Namespace Package: 1. No init.py
+                   2. 
