@@ -1,0 +1,9 @@
+Datetime Module:
+Function                        Purpose
+date.today()                    
+
+Functional Programming tools:
+1. map(): Transform each element
+          Iterate of modified values
+
+2. filter(): Select 
