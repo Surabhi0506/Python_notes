@@ -7,3 +7,10 @@ Functional Programming tools:
           Iterate of modified values
 
 2. filter(): Select 
+
+Different ways to import:
+1. import Emtire Module: import math
+2. Import Specific Functions: from math import factorial
+3. Import Multiple Functions: from math import sqrt, factorial
+4. Import with Alias: import math as m
+5. Import Everything: from math import * (not recommended for good programming practice)
