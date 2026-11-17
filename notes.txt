@@ -33,4 +33,5 @@ CREATING AND ACCESSING PACKAGES:
 4. Create Sub-Packages(Optional):
 5. Import Modules:
 
-SYNTAX: from package_name.module_name import function_name
+SYNTAX: 
+from package_name.module_name import function_name
