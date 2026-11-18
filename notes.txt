@@ -71,7 +71,7 @@ Core Components:
 1. Event Loop: The event loop manages and schedules asynchronous tasks, deciding when each coroutine runs. It cycles through pending jobs
                and resumes them when their awaited operations complete.
 SYNTAX: asyncio.run(main()) - for other than jupyter notebook
-For jupyter notebook SYNTAX: await main()
+For jupyter notebook SYNTAX: await main()  #main is function name
 
 2. Coroutines: Coroutines are functions declared with async def that can be paused and resumed. They represent units of asynchronous work.
 Eg: 
@@ -79,3 +79,13 @@ async def hello():
     print("Hello")
 
 **asyncio is a built in module and we have to call it.**
+
+3. Tasks: Tasks wrap coroutines and allow them to run concurrently. You create them with asyncio.create_task().
+
+4. Awaitables: Objects that can be awaited - typically coroutines, tasks, or certain asyncio primitives.
+Eg: await asyncio.sleep(2)
+
+**coroutines are the functions**
+
+*Use asyncio when your program:
+1. Performs many I/o bound ops
