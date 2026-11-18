@@ -56,3 +56,26 @@ Feature                         Module                              Package
 4. contains                     Functions, classes, variables       Modules and sub-packages
 5. import Example               import calculator                   import mymath
 6. Size                         Small unit                          Larger unit
+
+**asyncio:
+It provides the tools needed to write asynchronous, non-blocking code.
+
+Key characteristics:
+1. Uses coroutines defined with async def
+2. Uses await to pause execution until an operation completes
+3. Runs everything inside an event loop that schedules tasks cooperatively
+4. Enables single-threaded concurrency without multithreading overhead
+5. Forms the foundation of many async frameworks(eg: FastAPI, aiohttp)
+
+Core Components:
+1. Event Loop: The event loop manages and schedules asynchronous tasks, deciding when each coroutine runs. It cycles through pending jobs
+               and resumes them when their awaited operations complete.
+SYNTAX: asyncio.run(main()) - for other than jupyter notebook
+For jupyter notebook SYNTAX: await main()
+
+2. Coroutines: Coroutines are functions declared with async def that can be paused and resumed. They represent units of asynchronous work.
+Eg: 
+async def hello():
+    print("Hello")
+
+**asyncio is a built in module and we have to call it.**
