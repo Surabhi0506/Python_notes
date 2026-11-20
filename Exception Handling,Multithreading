@@ -1,0 +1,10 @@
+UNIT 6
+Exception Handling, Multithreading:
+Exception: 
+An eception is an error that occurs during program execution. Exception handling allows a program to continue running without crashing unexpectedly.
+When a python script encounters a situation that it cannot cope with, it raises an exception.
+An exception is a python object that represents an error.
+
+*ADVANTAGES:
+1. Prevents abnormal termination
+2. Improves program reliability
