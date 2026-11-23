@@ -24,3 +24,9 @@ TypeError
 *Except: The except block lets you handle the error.
 *Else: The else block lets you execute code when there is no error.
 *Finally: The finally block lets you execute code, regardless of the result of the try-and except blocks.
+
+Multithreading: A thread is a lightweight process that performs a specific task within a program.
+A thread is the smallest unit of execution in a process. Multiple threads in a process share the same code and global data but maintain their own stack and registers.
+Multithreading allows you to run multiple threads concurrently within a single process, which is also known as thread-based parallelism.
+Multithreading is a technique that allows a program to execute multiple threads(smaller units of a process) concurrently.
+Program can perform multiple tasks at the same time, enhancing its efficiency and responsiveness.
