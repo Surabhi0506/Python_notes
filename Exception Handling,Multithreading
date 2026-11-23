@@ -30,3 +30,21 @@ A thread is the smallest unit of execution in a process. Multiple threads in a p
 Multithreading allows you to run multiple threads concurrently within a single process, which is also known as thread-based parallelism.
 Multithreading is a technique that allows a program to execute multiple threads(smaller units of a process) concurrently.
 Program can perform multiple tasks at the same time, enhancing its efficiency and responsiveness.
+
+Thread Life Cycle in Python:
+1. New: A thread is created but not yet started. It has been allocated resources but is not executing.
+2. Running: A thread is started and is currently executing its code.
+3. Blocked: A thread is waiting for an event or condition to occur, such as waiting for I/O operations or acquiring locks.
+4. Terminated: A thread has completed its execution or has been explicitly terminated.
+
+Key functions:
+1. start(): Begin thread execution
+2. sleep(): Pause thread
+3. join(): Wait for thread to execute (like the gather func. of asyncio) used for closing the thread
+4. Thread(): Create thread
+
+Sleep vs Join
+    sleep()                                 join()
+Pauses current thread               Waits for another thread
+Takes time as argument              Takes thread object
+Used for delay                      Used for synchronization
