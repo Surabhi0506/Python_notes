@@ -40,7 +40,8 @@ Thread Life Cycle in Python:
 Key functions:
 1. start(): Begin thread execution
 2. sleep(): Pause thread
-3. join(): Wait for thread to execute (like the gather func. of asyncio) used for closing the thread
+3. join(): Wait for thread to execute (like the gather func. of asyncio) used for closing the thread for combining the output of
+           different threads
 4. Thread(): Create thread
 
 Sleep vs Join
@@ -85,4 +86,11 @@ Best For                              CPU + I/O tasks                           
 Memory Usage                          More                                            Less
 Context Switching                     OS controlled                                   Python event loop
 Complexity                            Easy to understand                              Harder initially
-Scalability
+Scalability                           Limited threads
+
+When to use:
+1. Multithreading: 1. File download
+                   2. Report Generation
+                   3. Background printing
+                   4. Reading multiple files
+                   5. Concurrent User operations
