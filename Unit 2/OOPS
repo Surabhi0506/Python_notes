@@ -14,7 +14,7 @@ Create Class:
             x = 5
 Methods: functions 
 
-Object:
+Object: Instance of an object
 Create Object:
               p1 = MyClass()
               print(p1.x)
@@ -41,3 +41,52 @@ Types of Data Members:
                         Used for data hiding and encapsulation.
 
 Data Member Comparison:
+Feature                         Instance Data Member                        Class Data Member                       Private Data Member
+Belongs to                           Object                                     Class                                   Object
+Declared using
+Copies
+Access
+Purpose
+
+Getter Method: Gets(reads) the value of an attributes
+for each private variable create a separate get method
+SYNTAX:
+        def get_variable(self):
+            return self.get__variable
+
+Setter Method: Sets(updates) the value of an attributes
+SYNTAX: 
+        def set_variable(self,value):
+            self.__variable=value
+
+ADVANTAGES - Getter and Setter Methods:
+1. Data hiding
+2. encapsulation
+3. Data validation
+4. Controller
+
+Constructor VS Destructor:
+Constructor(__init__): A special method automatically called when an object is created. It is used to initialize instance variables.
+A constructor is a special method that is automatically executed when an object is created. It is used to initialize the object's data members.
+
+TYPES OF CONSTRUCTOR:
+1. Default Constructor: No parameters except self.
+2. Parameterized Constructor: Accepts additional parameters.
+
+USES:
+1. Initialize object data
+2. Assign default values
+3. Open files or database connections
+4. Prepare object for use
+
+Destructor(__del__): A special method automatically called when an object is destroyed. It is used to release resources sucha as files, network 
+                    connections etc.
+
+
+
+Feature                     Constructor                         Destructor
+Method Name                __init__()                           __del__()
+Called when                Object Creation                      Object Destruction
+Purpose                    Initialize object                    Release Resources
+parameters                 
+Frequency
