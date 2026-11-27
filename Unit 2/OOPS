@@ -90,3 +90,28 @@ Called when                Object Creation                      Object Destructi
 Purpose                    Initialize object                    Release Resources
 parameters                 
 Frequency
+
+@classmethod
+A class method is a method that operates on class variables rather than instance variables. It is defined using the @classmethod
+decorator and accepts cls as its first parameter.
+It is a decorator that tells Python that the method belongs to the class rather than any specific object.
+class method receives cls as the first parameter.
+cls refers to the class itself.
+
+Self vs cls
+
+        self                                                    cls
+Refers to current object                              Refers to current class
+Used in instance methods                              Used in class methods
+Object required to call method                        Can be called using class Name
+Accesses instance variables                           Accesses class variables
+
+Property Object:
+A property object in python is a special object that allows you to control access to class attributes using getter, setter methods, while still accessing them like normal variables.
+
+Inheritance:
+Inheritance is a mechanism ini which one class acquires the properties and methods of another class.
+It promotes:
+1. Code reusability
+2. Reduced Redundancy
+3. 
