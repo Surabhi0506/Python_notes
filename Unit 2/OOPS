@@ -115,3 +115,22 @@ It promotes:
 1. Code reusability
 2. Reduced Redundancy
 3. 
+
+Types of Inheritance:
+1. Single
+2. Hybrid
+3. Hierarchical
+4. Multiple
+5. Multilevel
+
+Single Inheritance:
+This is the simplest form of inheritance where a child class inherits 
+
+Method Resolution Order:
+If methods with same name are defined in multiple parent classes, Python follows a specific order to decide which method to execute.
+This order is known as the Method Resolution Order(MRO).
+This order is determined by the C3 linearization alogrithm, also called MRO.
+Class.mro() - SYNTAX
+
+Using super() in Multiple Inheritance:
+The super() function is used by child class to call a method from parent class. If you use super() in a method in case of multiple inheritance
